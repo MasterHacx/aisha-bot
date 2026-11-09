@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual envs
+env/
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets
+.env
+credentials.json
+token.json
+service_account.json
+google-services*.json
+
+# Runtime data
+memory.json
+chat_history.json
+group_chat_history.json
+user_models.json
+tg_ids.json
+
+# OS
+.DS_Store
+Thumbs.db
